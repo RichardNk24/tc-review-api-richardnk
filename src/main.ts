@@ -44,8 +44,6 @@ async function bootstrap() {
     .addTag('TC Review')
     .addBearerAuth({
       type: 'http',
-      scheme: 'bearer',
-      bearerFormat: 'JWT',
       name: 'JWT',
       description: 'Enter JWT access token',
       in: 'header',
